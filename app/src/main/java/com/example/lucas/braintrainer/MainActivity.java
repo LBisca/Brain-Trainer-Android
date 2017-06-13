@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 timer.setText("0s");
                 resultTextView.setText("Done!");
                 playAgain.setVisibility(View.VISIBLE);
+                gameLayout.setVisibility(View.INVISIBLE);
 
             }
         }.start();
