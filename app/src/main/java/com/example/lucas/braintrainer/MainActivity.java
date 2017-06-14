@@ -43,9 +43,10 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText("0/0");
         resultTextView.setText("");
         playAgain.setVisibility(View.INVISIBLE);
+        gameLayout.setVisibility(View.VISIBLE);
         generateQuestion();
 
-        new CountDownTimer(30000, 1000) {
+        new CountDownTimer(3100, 1000) {
 
             @Override
             public void onTick(long millisUntilFinished) {

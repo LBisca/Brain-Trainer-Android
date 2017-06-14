@@ -11,6 +11,17 @@
     tools:context="com.example.lucas.braintrainer.MainActivity">
 
     <Button
+        android:id="@+id/playAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:onClick="playAgain"
+        android:text="Play Again!"
+        android:visibility="invisible" />
+
+    <Button
         android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,17 +74,6 @@
             android:layout_marginBottom="63dp"
             android:text=""
             android:textSize="40sp" />
-
-        <Button
-            android:id="@+id/playAgain"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="8dp"
-            android:onClick="playAgain"
-            android:text="Play Again!"
-            android:visibility="invisible" />
 
         <GridLayout
             android:layout_width="match_parent"
