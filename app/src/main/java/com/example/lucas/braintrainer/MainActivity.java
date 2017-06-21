@@ -46,13 +46,12 @@ public class MainActivity extends AppCompatActivity {
         gameLayout.setVisibility(View.VISIBLE);
         generateQuestion();
 
-        new CountDownTimer(3100, 1000) {
+        new CountDownTimer(31000, 1000) {
 
             @Override
             public void onTick(long millisUntilFinished) {
 
                 timer.setText(String.valueOf(millisUntilFinished / 1000) + "s");
-                score = 0;
 
             }
 
